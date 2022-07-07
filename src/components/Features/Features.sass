@@ -1,8 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Lato:ital@1&display=swap')
 .feature
     text-align: center
-    padding: 63px 0
     background-color: #FAFAFA
+    padding: 0 60px
+
+.contoiner
+    margin: 0 auto
+    max-width: 1100px
+
+.section-title
+    font-family:  Cormorant Garamond, sans-serif
+    font-size: 36px
+    padding: 50px 0
 
 .feature-list
     margin: 0
@@ -30,13 +39,17 @@
     background-color: #fff
     border-radius: 16px
     padding: 33px 20px 25px
+    font-family: Cormorant Garamond, sans-serif
     box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1)
     color: #101010
+
 .feature-title
     font-size: 18px
     margin: 0 0 20px
     color: #101010
-    font-family: Lato, sans-serif
+    font-family: Cormorant Garamond, sans-serif
+    font-size: 25px
+    font-weight: bold
 
 .feature-link
     color: #ED4C5C
@@ -44,3 +57,52 @@
     font-family: sans-serif
     font-weight: 700
     font-size: 12px
+
+@media screen  and (max-width:973px)
+    .feature-title
+        font-size: 15px
+
+    .feature-link
+        font-size: 10px
+
+    .feature-text
+        font-size: 11px
+
+
+
+
+@media screen  and (max-width:881px)
+    .feature-title
+        font-size: 10px
+        margin: 0 0 10px
+
+    .feature-link
+        font-size: 8px
+
+    .feature-text
+        font-size: 8px
+
+@media screen  and (max-width:742px)
+    .feature-list
+        flex-direction: column
+        align-items: center
+
+    .feature-title
+        font-size: 15px
+
+    .feature-link
+        font-size: 12px
+
+    .feature-text
+        font-size: 12px
+
+
+@media screen  and (max-width:352px)
+    .feature-title
+        font-size: 9px
+
+    .feature-link
+        font-size: 7px
+
+    .feature-text
+        font-size: 7px
